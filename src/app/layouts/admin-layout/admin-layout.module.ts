@@ -15,14 +15,18 @@ import { NotificationsComponent }   from '../../pages/notifications/notification
 import { UpgradeComponent }         from '../../pages/upgrade/upgrade.component';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import {MatIconModule} from "@angular/material/icon";
+import {MatButtonModule} from "@angular/material/button";
 
 @NgModule({
-  imports: [
-    CommonModule,
-    RouterModule.forChild(AdminLayoutRoutes),
-    FormsModule,
-    NgbModule
-  ],
+    imports: [
+        CommonModule,
+        RouterModule.forChild(AdminLayoutRoutes),
+        FormsModule,
+        NgbModule,
+        MatIconModule,
+        MatButtonModule
+    ],
   declarations: [
     DashboardComponent,
     UserComponent,
