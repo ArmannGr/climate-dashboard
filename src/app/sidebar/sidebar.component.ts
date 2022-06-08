@@ -17,6 +17,15 @@ export const ROUTES: RouteInfo[] = [
     { path: '/table',         title: 'Table List',        icon:'nc-tile-56',    class: '' },
     { path: '/typography',    title: 'Typography',        icon:'nc-caps-small', class: '' },
     { path: '/upgrade',       title: 'Upgrade to PRO',    icon:'nc-spaceship',  class: 'active-pro' },
+    { path: '/wetter',       title: 'Wetter',    icon:'public',  class: '' },
+    { path: '/co2',       title: 'CO2',    icon:'co2',  class: '' },
+    { path: '/einwohner',       title: 'Einwohner',    icon:'groups',  class: '' },
+    { path: '/wasser',       title: 'Wasser',    icon:'water',  class: '' },
+    { path: '/energie',       title: 'Energie',    icon:'electric_bolt',  class: '' },
+    { path: '/wind',       title: 'Wind',    icon:'air',  class: '' },
+    { path: '/solar',       title: 'Solar',    icon:'sunny',  class: '' },
+    { path: '/internet',       title: 'Internet',    icon:'wifi',  class: '' },
+    { path: '/tourismus',       title: 'Tourismus',    icon:'map',  class: '' },
 ];
 
 @Component({
