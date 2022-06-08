@@ -120,6 +120,9 @@ paper-dashboard-angular
 │   │   │   └── user
 │   │   │       ├── user.component.html
 │   │   │       └── user.component.ts
+│   │   │   └── wetter
+│   │   │       ├── wetter.component.html
+│   │   │       └── wetter.component.ts
 │   │   ├── shared
 │   │   │   ├── fixedplugin
 │   │   │   │   ├── fixedplugin.component.html
