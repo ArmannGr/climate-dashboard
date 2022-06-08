@@ -1,6 +1,5 @@
 import { Routes } from '@angular/router';
 
-import { DashboardComponent } from '../../pages/dashboard/dashboard.component';
 import { UserComponent } from '../../pages/user/user.component';
 import {Co2Component} from "../../pages/co2/co2.component";
 import {EinwohnerComponent} from "../../pages/einwohner/einwohner.component";
@@ -13,7 +12,6 @@ import {WetterComponent} from "../../pages/wetter/wetter.component";
 import {WindComponent} from "../../pages/wind/wind.component";
 
 export const AdminLayoutRoutes: Routes = [
-    { path: 'dashboard',      component: DashboardComponent },
     { path: 'user',           component: UserComponent },
     { path: 'co2',        component: Co2Component },
     { path: 'einwohner',        component: EinwohnerComponent },
