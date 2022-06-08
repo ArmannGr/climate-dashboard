@@ -5,7 +5,7 @@ import { SidebarComponent } from './sidebar.component';
 import {MatIconModule} from "@angular/material/icon";
 
 @NgModule({
-  imports: [RouterModule, CommonModule, MatIconModule],
+    imports: [RouterModule, CommonModule, MatIconModule],
     declarations: [ SidebarComponent ],
     exports: [ SidebarComponent ]
 })
