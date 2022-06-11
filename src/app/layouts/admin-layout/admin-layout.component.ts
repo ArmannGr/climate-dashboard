@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+declare var tableau: any;
 
 @Component({
   selector: 'app-admin-layout',
