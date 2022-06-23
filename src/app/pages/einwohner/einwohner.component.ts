@@ -23,7 +23,7 @@ export class EinwohnerComponent implements OnInit{
   drawPopulationWeather(){
     let placeholderDiv = document.getElementById('populationWeather');
     // Replace this url with the url of your Tableau dashboard
-    let url = 'https://public.tableau.com/views/WetterAPI/VergleichEinwohnerCO2?:language=de-DE&:display_count=n&:origin=viz_share_link&:toolbar=no&:showShareOptions=false';
+    let url = 'https://public.tableau.com/views/WetterAPI/VergleichEinwohnerCO2_X?:language=de-DE&:display_count=n&:origin=viz_share_link&:toolbar=no&:showShareOptions=false';
     let options = {
       hideTabs: true,
       width: "100%",
@@ -57,7 +57,7 @@ export class EinwohnerComponent implements OnInit{
   drawCo2PerHeadPerYearPerCountry(){
     let placeholderDiv = document.getElementById('co2PerHeadPerYearPerCountry');
     // Replace this url with the url of your Tableau dashboard
-    let url = 'https://public.tableau.com/views/WetterAPI/Co2proKopfjeJahrjeLand?:language=en-US&:display_count=n&:origin=viz_share_link&:toolbar=no&:showShareOptions=false';
+    let url = 'https://public.tableau.com/views/WetterAPI/Co2proKopfjeJahrjeLand_X?:language=en-US&:display_count=n&:origin=viz_share_link&:toolbar=no&:showShareOptions=false';
     let options = {
       hideTabs: true,
       width: "100%",

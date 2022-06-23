@@ -40,7 +40,7 @@ export class Co2Component implements OnInit{
   drawWeatherCo2(){
     let placeholderDiv = document.getElementById('co2Weather');
     // Replace this url with the url of your Tableau dashboard
-    let url = 'https://public.tableau.com/views/WetterAPI/Wetter_CO2?:language=en-US&:display_count=n&:origin=viz_share_link&:toolbar=no&:showShareOptions=false';
+    let url = 'https://public.tableau.com/views/WetterAPI/Wetter_CO2_X?:language=de-DE&:display_count=n&:origin=viz_share_link&:toolbar=no&:showShareOptions=false';
     let options = {
       hideTabs: true,
       width: "100%",

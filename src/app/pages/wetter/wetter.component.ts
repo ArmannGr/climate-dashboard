@@ -43,7 +43,7 @@ export class WetterComponent implements OnInit{
   drawWeatherOfYear(){
     let placeholderDiv = document.getElementById('weatherOfYear');
     // Replace this url with the url of your Tableau dashboard
-    let url = 'https://public.tableau.com/views/WetterAPI/Wetter_3?:language=en-US&:display_count=n&:origin=viz_share_link&:toolbar=no&:showShareOptions=false';
+    let url = 'https://public.tableau.com/views/WetterAPI/Wetter_3_X?:language=de-DE&:display_count=n&:origin=viz_share_link&:toolbar=no&:showShareOptions=false';
     let options = {
       hideTabs: true,
       width: "100%",
@@ -60,7 +60,7 @@ export class WetterComponent implements OnInit{
   drawWeatherOverTheYears(){
     let placeholderDiv = document.getElementById('weatherOverTheYears');
     // Replace this url with the url of your Tableau dashboard
-    let url = 'https://public.tableau.com/views/WetterAPI/Wetter_2?:language=en-US&:display_count=n&:origin=viz_share_link&:toolbar=no&:showShareOptions=false';
+    let url = 'https://public.tableau.com/views/WetterAPI/Wetter_2_X?:language=de-DE&:display_count=n&:origin=viz_share_link&:toolbar=no&:showShareOptions=false';
     let options = {
       hideTabs: true,
       width: "100%",
@@ -77,7 +77,7 @@ export class WetterComponent implements OnInit{
   drawHottestCountries(){
     let placeholderDiv = document.getElementById('weatherHottestCountries');
     // Replace this url with the url of your Tableau dashboard
-    let url = 'https://public.tableau.com/views/WetterAPI/Wetter_7?:language=en-US&:display_count=n&:origin=viz_share_link&:toolbar=no&:showShareOptions=false';
+    let url = 'https://public.tableau.com/views/WetterAPI/Wetter_7_X?:language=de-DE&:display_count=n&:origin=viz_share_link&:toolbar=no&:showShareOptions=false';
     let options = {
       hideTabs: true,
       width: "100%",
@@ -94,7 +94,7 @@ export class WetterComponent implements OnInit{
   drawColdestCountries(){
     let placeholderDiv = document.getElementById('weatherColdestCountries');
     // Replace this url with the url of your Tableau dashboard
-    let url = 'https://public.tableau.com/views/WetterAPI/Wetter_8?:language=en-US&:display_count=n&:origin=viz_share_link&:toolbar=no&:showShareOptions=false';
+    let url = 'https://public.tableau.com/views/WetterAPI/Wetter_8_X?:language=de-DE&:display_count=n&:origin=viz_share_link&:toolbar=no&:showShareOptions=false';
     let options = {
       hideTabs: true,
       width: "100%",
