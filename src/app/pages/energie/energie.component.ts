@@ -11,7 +11,6 @@ declare var tableau: any;
 export class EnergieComponent implements OnInit{
   ngOnInit(){
     this.drawEnergyOverTheYears()
-    this.drawElectricityOverTheYears()
     this.drawEnergyTempOverTheYears()
   }
   drawEnergyOverTheYears(){
@@ -31,22 +30,6 @@ export class EnergieComponent implements OnInit{
     this.drawEnergyOverTheYears = new tableau.Viz(placeholderDiv, url, options);
   }
 
-  drawElectricityOverTheYears(){
-    let placeholderDiv = document.getElementById('electricityOverTheYears');
-    // Replace this url with the url of your Tableau dashboard
-    let url = 'https://public.tableau.com/views/WetterAPI/Energy_doppelt?:language=de-DE&:display_count=n&:origin=viz_share_link';
-    let options = {
-      hideTabs: true,
-      width: "100%",
-      height: "800px",
-      onFirstInteractive: function() {
-        // The viz is now ready and can be safely used.
-        console.log("Run this code when the viz has finished     loading.");
-      }
-    };
-    // Creating a viz object and embed it in the container div.
-    this.drawElectricityOverTheYears = new tableau.Viz(placeholderDiv, url, options);
-  }
   drawEnergyTempOverTheYears(){
     let placeholderDiv = document.getElementById('energyTempOverTheYears');
     // Replace this url with the url of your Tableau dashboard
