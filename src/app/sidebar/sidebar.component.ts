@@ -14,10 +14,6 @@ export const ROUTES: RouteInfo[] = [
     { path: '/einwohner',       title: 'Einwohner',    icon:'groups',  class: '' },
     { path: '/wasser',       title: 'Wasser',    icon:'water',  class: '' },
     { path: '/energie',       title: 'Energie',    icon:'electric_bolt',  class: '' },
-    { path: '/wind',       title: 'Wind',    icon:'air',  class: '' },
-    { path: '/solar',       title: 'Solar',    icon:'sunny',  class: '' },
-    { path: '/internet',       title: 'Internet',    icon:'wifi',  class: '' },
-    { path: '/tourismus',       title: 'Tourismus',    icon:'map',  class: '' },
     { path: '/user',          title: 'About US',      icon:'people_alt',  class: 'active-pro' }
 ];
 
