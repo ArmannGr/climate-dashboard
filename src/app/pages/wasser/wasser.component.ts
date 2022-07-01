@@ -57,7 +57,7 @@ export class WasserComponent implements OnInit{
   drawWaterEnergyMap(){
     let placeholderDiv = document.getElementById('waterEnergyMap');
     // Replace this url with the url of your Tableau dashboard
-    let url = 'https://public.tableau.com/views/WetterAPI/Hydro_32?:language=de-DE&:display_count=n&:origin=viz_share_link&:toolbar=no&:showShareOptions=false';
+    let url = 'https://public.tableau.com/views/WetterAPI/Hydro_4_X?:language=en-US&:display_count=n&:origin=viz_share_link';
     let options = {
       hideTabs: true,
       width: "100%",
