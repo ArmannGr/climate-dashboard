@@ -16,6 +16,7 @@ import {EnergieComponent} from "../../pages/energie/energie.component";
 import {WasserComponent} from "../../pages/wasser/wasser.component";
 import {WetterComponent} from "../../pages/wetter/wetter.component";
 import {MatCardModule} from "@angular/material/card";
+import {ErgebnisComponent} from "../../pages/ergebnis/ergebnis.component";
 
 @NgModule({
   imports: [
@@ -33,7 +34,8 @@ import {MatCardModule} from "@angular/material/card";
     EinwohnerComponent,
     EnergieComponent,
     WasserComponent,
-    WetterComponent
+    WetterComponent,
+    ErgebnisComponent
   ]
 })
 

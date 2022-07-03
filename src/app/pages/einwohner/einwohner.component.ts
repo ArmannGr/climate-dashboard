@@ -40,7 +40,7 @@ export class EinwohnerComponent implements OnInit{
   drawCo2PerHeadPerYear(){
     let placeholderDiv = document.getElementById('co2PerHeadPerYear');
     // Replace this url with the url of your Tableau dashboard
-    let url = 'https://public.tableau.com/views/WetterAPI/Co2proKopfjeJahr2?:language=en-US&:display_count=n&:origin=viz_share_link&:toolbar=no&:showShareOptions=false';
+    let url = 'https://public.tableau.com/views/WetterAPI/CO2proKopf_X?:language=en-US&:display_count=n&:origin=viz_share_link&:toolbar=no&:showShareOptions=false';
     let options = {
       hideTabs: true,
       width: "100%",

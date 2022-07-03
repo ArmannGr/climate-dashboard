@@ -23,7 +23,7 @@ export class Co2Component implements OnInit{
   drawCo2OverTheYears(){
     let placeholderDiv = document.getElementById('co2OverTheYears');
     // Replace this url with the url of your Tableau dashboard
-    let url = 'https://public.tableau.com/views/WetterAPI/TEST_ENERGY-X?:language=en-US&:display_count=n&:origin=viz_share_link';
+    let url = 'https://public.tableau.com/views/WetterAPI/CO2_X?:language=de-DE&:display_count=n&:origin=viz_share_link&:toolbar=no&:showShareOptions=false';
     let options = {
       hideTabs: true,
       width: "100%",
