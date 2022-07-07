@@ -9,7 +9,6 @@ import {WetterComponent} from "../../pages/wetter/wetter.component";
 import {ErgebnisComponent} from "../../pages/ergebnis/ergebnis.component";
 
 export const AdminLayoutRoutes: Routes = [
-    { path: 'user',           component: UserComponent },
     { path: 'co2',        component: Co2Component },
     { path: 'einwohner',        component: EinwohnerComponent },
     { path: 'energie',        component: EnergieComponent },

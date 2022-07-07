@@ -15,7 +15,6 @@ export const ROUTES: RouteInfo[] = [
     { path: '/wasser',       title: 'Wasser',    icon:'water',  class: '' },
     { path: '/energie',       title: 'Energie',    icon:'electric_bolt',  class: '' },
     { path: '/ergebnis',          title: 'Erkenntnisse',      icon:'emoji_objects',  class: '' },
-    { path: '/user',          title: 'About US',      icon:'people_alt',  class: 'active-pro' }
 ];
 
 @Component({
