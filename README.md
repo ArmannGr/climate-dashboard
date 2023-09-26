@@ -1,6 +1,6 @@
 # Climate Dashboard
 
-Welcome to the Climate Dashboard! This Angular application provides a comprehensive view of weather data, CO2 emissions, and renewable energy statistics through interactive visualizations created with Tableau.
+Welcome to the Climate Dashboard! This Angular application provides a comprehensive view of weather data, CO2 emissions, and renewable energy statistics through interactive visualizations created with Tableau. For the dashboard design we are using Angular
 
 ## Overview
 
@@ -23,5 +23,19 @@ To start using the Climate Dashboard Angular app, follow these steps:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/climate-dashboard.git
+   git clone https://github.com/ArmannGr/climate-dashboard.git
+
+   ```bash
+   cd climate-dashboard
+
+   ```bash
+   npm install
+
+   ```bash
+   ng serve
+
+
+   
+
+
 
