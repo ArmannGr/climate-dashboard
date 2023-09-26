@@ -25,13 +25,10 @@ To start using the Climate Dashboard Angular app, follow these steps:
    ```bash
    git clone https://github.com/ArmannGr/climate-dashboard.git
 
-   ```bash
    cd climate-dashboard
 
-   ```bash
    npm install
 
-   ```bash
    ng serve
 
 
